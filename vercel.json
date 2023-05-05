@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "dist/main.js",
-      "use": "@vercel/node"
+  "buildCommand": "npm run build",
+  "functions": {
+    "dist/main.js": {
+      "runtime": "nodejs@14"
     }
-  ],
+  },
   "routes": [
     {
       "src": "/(.*)",
