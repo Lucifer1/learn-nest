@@ -3,7 +3,7 @@
   "buildCommand": "npm run build",
   "functions": {
     "dist/main.js": {
-      "runtime": "vercel-node@14"
+      "runtime": "now-node@14"
     }
   },
   "routes": [
